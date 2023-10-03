@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+}
+
+.product_container{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    left: 120px;
+}
+
+.product_card{
+    margin: 20px 90px;
+    border: 2px solid;
+    height: 390px;
+}
+
+.product_img{
+    width: 250px;
+    height: 250px;
+    border: none;
+    border-radius: 5px;
+}
+
+.navbar_container{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    padding: 10px 20px;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.app_title{
+    font-size: 27px;
+}
+
+.fa-cart-shopping{
+    font-size: 30px;
+    position: absolute;
+    right: 40px;
+}
+
+sup{
+    font-size: 20px;
+    position: absolute;
+    right: 23px;
+}
+
+.form_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+.inputs{
+    width: 350px;
+    height: 30px;
+    margin: 20px;
+}
+
+.submit_btn{
+    width: 80px;
+    height: 30px;
+}
+
+.checkbox{
+    position: relative;
+    top: 48px;
+    right: -140px;
+}
+
+.delete_btn{
+    position: absolute;
+    bottom: 20%;
+    left:47%;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 3px 3px;
+}
+
+.login_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    flex-direction: column;
+    width: 50%;
+    position: absolute;
+    top: 200px;
+    left: 390px;
+}
+
+.login_heading{
+    margin: 30px;
+}
+
+.login_inputs{
+    margin: 10px;
+    width: 310px;
+}
+
+.login_btn{
+    margin: 20px;
+}
+
+.signup_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    flex-direction: column;
+    width: 50%;
+    position: absolute;
+    top: 200px;
+    left: 390px;
+}
+
+.signup_heading{
+    margin: 30px;
+}
+
+.signup_inputs{
+    margin: 10px;
+    width: 310px;
+}
+
+.signup_btn{
+    margin: 20px;
+}
+
+.addtocart_btn{
+    position: relative;
+    top: 26px;
+    left: -25px;
+}
+
+.edit_btn{
+    position: relative;
+    top: -3px;
+    left: 55px;
+}
